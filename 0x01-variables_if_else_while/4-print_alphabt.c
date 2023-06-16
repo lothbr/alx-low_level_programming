@@ -10,7 +10,7 @@ char f = 'a';
 do {
 f++;
 putchar(f);
-} while (f != 'q' || f != 'e' && f <= 'z');
+} while (((f != 'q') || (f != 'e')) && (f <= 'z'));
 putchar('\n');
 return (0);
 }
