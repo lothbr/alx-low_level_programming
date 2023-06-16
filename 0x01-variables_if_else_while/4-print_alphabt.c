@@ -8,9 +8,9 @@ int main(void)
 {
 char f = 'a';
 do {
-f++;
 putchar(f);
-} while (((f != 'q') || (f != 'e')) && (f <= 'z'));
+f++;
+} while (((f != 'q') && (f != 'e')) && (f <= 'z'));
 putchar('\n');
 return (0);
 }
