@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-char f = 'a';
-do {
+char f;
+for (f = 'a'; f <= 'z'; f++)
+{
+if (f != 'e' && f != 'q')
 putchar(f);
-f++;
-} while (((f != 'q') && (f != 'e')) && (f <= 'z'));
+}
 putchar('\n');
 return (0);
 }
