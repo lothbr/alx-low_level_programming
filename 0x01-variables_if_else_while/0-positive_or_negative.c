@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * main - A program that show if a number
 * is positive, zero or negative.
