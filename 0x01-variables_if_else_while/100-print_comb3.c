@@ -16,7 +16,7 @@ for (i = 0; i < rows; i++)
 {
 for (j = 0; j <= col; j++)
 {
-num[i][j] = value[i][j]
+num[i][j] = value[i][j];
 if ((num[i][j] == value[j][i]) && (num[j][i] == value[i][j]))
 {
 continue;
