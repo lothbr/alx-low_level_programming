@@ -6,29 +6,19 @@
  */
 int main(void)
 {
-int rows = 1;
-int col = 89;
-int num[rows][col];
 int i;
 int j;
-int value[rows][col];
-for (i = 0; i < rows; i++)
+for (i = 0; i < 9; i++)
 {
-for (j = 0; j <= col; j++)
+for (j = i + 1; j < 10; j++)
 {
-num[i][j] = value[i][j];
-if ((num[i][j] == value[j][i]) && (num[j][i] == value[i][j]))
-{
-continue;
-}
-putchar('0' + num[i][j]);
-if  (num[i][j] != value[i][col])
+putchar('0' + i);
+putchar('0' + j);
+if (i != 8 || j != 9)
 {
 putchar(',');
 putchar(' ');
 }
-else
-break;
 }
 }
 return (0);
