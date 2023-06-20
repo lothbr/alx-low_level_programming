@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <main.h>
 /**
- * main - A progrma to print _putchar
- *
- * return: 0 to be success
+ * main - aprogrma that prints putchar
+ * Return: o
  */
-int main(void)
+int _putchar(char a)
 {
-printf("_putchar \n");
+putchar(a);
 return (0);
 }
