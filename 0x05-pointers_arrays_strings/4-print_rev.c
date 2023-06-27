@@ -15,7 +15,7 @@ count++;
 s++;
 }
 s--;
-for (number = count; number >= 0; number--)
+for (number = count; number > 0; number--)
 {
 _putchar(*s);
 s--;
