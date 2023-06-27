@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strlen - a program that return the len of a string
  * @s: input string
@@ -7,7 +6,10 @@
  */
 int _strlen(char *s)
 {
-int n;
-n = strlen(*s);
+int n = 0;
+while (*s != '\0') {
+n++;
+s++;
+}
 return (n);
 }
